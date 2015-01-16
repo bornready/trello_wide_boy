@@ -6,7 +6,11 @@
   flex-basis: 470px !important;
 }
 
-
-.trello-wide-boy .list .list-card{
+.trello-wide-boy .list .list-card {
   max-width: 470px !important;
+}
+
+.trello-wide-boy .list .list-card .list-card-title {
+  font-size: 40px;
+  line-height: 46px;
 }
