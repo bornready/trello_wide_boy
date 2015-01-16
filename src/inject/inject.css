@@ -1,0 +1,12 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+.trello-wide-boy .list {
+  flex-basis: 470px !important;
+}
+
+
+.trello-wide-boy .list .list-card{
+  max-width: 470px !important;
+}
