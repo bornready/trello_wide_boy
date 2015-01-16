@@ -2,6 +2,22 @@
  * Place your custom CSS styles here.
  **/
 
+.list .list-card .list-card-title {
+  -webkit-transition: font-size 0.8s, line-height 0.8s;
+  transition: font-size 0.8s, line-height 0.8s;
+}
+
+.list {
+  -webkit-transition: flex-basis 0.8s;
+  transition: flex-basis 0.8s;
+}
+
+.list .list-card {
+  -webkit-transition: max-width 0.8s;
+  transition: max-width 0.8s;
+  transition-timing-function: cubic-bezier(.38,.04,.53,.93)
+}
+
 .trello-wide-boy .list {
   flex-basis: 470px !important;
 }
